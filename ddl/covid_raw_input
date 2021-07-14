@@ -1,0 +1,22 @@
+CREATE TABLE covid_raw_data (
+	entry_id int,
+	state_patient_num varchar(255),
+	date_announced varchar(30),
+	age_bracket varchar(30),
+	gender varchar(30),
+	detected_city varchar(255),
+	detected_district varchar(255),
+	detected_state varchar(255),
+	state_code varchar(2),
+	num_cases int,
+	current_status varchar(100),
+	contacted_from varchar(255),
+	notes varchar(255),
+	source_1 varchar(255),
+	source_2 varchar(255),
+	source_3 varchar(255),
+	nationality varchar(30),
+	types_of_transmission varchar(255),
+	status_change_date varchar(30),
+	patient_num varchar(255)
+);

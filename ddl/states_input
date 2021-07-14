@@ -1,0 +1,7 @@
+create table states (
+	state_name varchar(255),
+	state_code varchar(4),
+	capital varchar(255),
+	latitude DECIMAL(10,3),
+	longitude DECIMAL(10,3)
+	)
